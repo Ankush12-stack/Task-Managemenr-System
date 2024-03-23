@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@800&family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically */
+  }
+  
+  .container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app button {
+    background-color: #007bff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color:#fff;
+    transition: background-color 0.3s;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .app button:hover{
+    background-color: #0056b3;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .login-form {
+    margin-top: -100px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .login-form button {
+    width: 105%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
